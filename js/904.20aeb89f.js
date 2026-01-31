@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkdrones"]=self["webpackChunkdrones"]||[]).push([[904],{40904:function(o,r,e){e.r(r),e.d(r,{oitFinalSimpleBlendPixelShader:function(){return a}});var n=e(69610);const l="oitFinalSimpleBlendPixelShader",i="precision highp float;uniform sampler2D uFrontColor;void main() {ivec2 fragCoord=ivec2(gl_FragCoord.xy);vec4 frontColor=texelFetch(uFrontColor,fragCoord,0);glFragColor=frontColor;}\n";n.l.ShadersStore[l]||(n.l.ShadersStore[l]=i);const a={name:l,shader:i}}}]);
+//# sourceMappingURL=904.20aeb89f.js.map
